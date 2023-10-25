@@ -48,3 +48,6 @@ trap '__vsc_preexec_all "$_"' DEBUG
 __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 git
 git init
+git remote add origin https://github.com/MaLrc/freecodecamp_mario_database.git
+git branch -M main
+git push -u origin main
